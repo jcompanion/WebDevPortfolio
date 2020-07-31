@@ -199,6 +199,12 @@ a.resume {
     .jumbotron {
         margin-top: 70px;
     }
+    .brand {
+        font-size: 120%;
+    }
+    .navbar-toggler {
+        margin-right: 30px;
+    }
   }
 
 

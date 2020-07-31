@@ -197,7 +197,7 @@ a.resume {
 
   @media only screen and (max-width: 576px) {
     .jumbotron {
-        margin-top: 70px;
+        margin-top: 0;
     }
     .brand {
         font-size: 120%;

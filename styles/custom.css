@@ -159,6 +159,9 @@ label {
     color: rgb(182, 116, 31);
     padding: 20px;
 }
+.list a {
+    color: rgb(182, 116, 31);
+}
 .lead {
     font-size: 25px;
 }

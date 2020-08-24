@@ -1,216 +1,209 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Parisienne&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap");
 * {
-    font-family: 'Tinos', serif;
+  font-family: "Tinos", serif;
 }
 .brand {
-    font-family: 'Parisienne', cursive;
-    font-weight: 900;
-    font-size: 30px;
-    color: rgb(167, 100, 14);
-    text-shadow: 4px 2px 4px rgb(7, 7, 7);
+  font-family: "Parisienne", cursive;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(167, 100, 14);
+  text-shadow: 4px 2px 4px rgb(7, 7, 7);
 }
 .brand:hover {
-    color: rgb(172, 122, 56);
+  color: rgb(172, 122, 56);
 }
 .brand.scroller {
-    text-shadow: none;
+  text-shadow: none;
 }
 body {
-    position: relative;
-    background-color: rgb(35, 49, 78);
+  position: relative;
+  background-color: rgb(35, 49, 78);
 }
 .nav-link {
-    color: rgb(212, 212, 212);
+  color: rgb(212, 212, 212);
 }
 .nav-link:hover {
-    color: rgb(255, 255, 255);
-    border-bottom: 1px dashed rgb(167, 100, 14);
+  color: rgb(255, 255, 255);
+  border-bottom: 1px dashed rgb(167, 100, 14);
 }
 .nav-link.active {
-    color: rgb(255, 255, 255);
-    border-bottom: 1px dashed rgb(167, 100, 14);
+  color: rgb(255, 255, 255);
+  border-bottom: 1px dashed rgb(167, 100, 14);
 }
 
 .jumbotron {
-    background-image: url(../assets/mountains.jpg);
-    background-size: cover;
-    height: 100%;
+  background-image: url(../assets/mountains.jpg);
+  background-size: cover;
+  height: 100%;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 100px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
 }
 .card .w-text {
-    color: white;
+  color: white;
 }
 .card {
-    transition: 200ms ease-in;
+  transition: 200ms ease-in;
 }
 .card:hover {
-    -webkit-box-shadow: 6px 6px 22px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 6px 22px 1px rgba(0,0,0,0.75);
-    box-shadow: 6px 6px 22px 1px rgba(0,0,0,0.75);
-    transform: scale(1.01);
-    cursor: pointer;
+  -webkit-box-shadow: 6px 6px 22px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 22px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 22px 1px rgba(0, 0, 0, 0.75);
+  transform: scale(1.01);
+  cursor: pointer;
 }
 .bg-dark {
-    transition: 200ms ease-in;
-    background-color: transparent !important;
+  transition: 200ms ease-in;
+  background-color: transparent !important;
 }
 .bg-dark.scrolled {
-    background-color: rgb(35, 49, 78) !important;
-    box-shadow: 0 6px 6px -2px rgba(0, 0, 0, 0.37);
+  background-color: rgb(35, 49, 78) !important;
+  box-shadow: 0 6px 6px -2px rgba(0, 0, 0, 0.37);
 }
 #back-to-top {
-    transition: 200ms ease-in;
-    background-color: rgb(167, 100, 14);
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    border: none;
-    opacity: 0;
+  transition: 200ms ease-in;
+  background-color: rgb(167, 100, 14);
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  border: none;
+  opacity: 0;
 }
 #back-to-top.scroll {
-    opacity: 1;
+  opacity: 1;
 }
 .fa-long-arrow-alt-up {
-    color: rgb(35, 49, 78);
+  color: rgb(35, 49, 78);
 }
 .navbar-toggler {
-    width: 10%;
+  width: 10%;
 }
 .navbar-toggler-icon {
-    color: rgb(167, 100, 14) !important;
-    font-size: 80%;
-    display: inline;
+  color: rgb(167, 100, 14) !important;
+  font-size: 80%;
+  display: inline;
 }
 .headers {
-    color: rgb(167, 100, 14);
-    text-align: center;
+  color: rgb(167, 100, 14);
+  text-align: center;
 }
 label {
-    color: rgb(167, 100, 14);
-    font-size: larger;
+  color: rgb(167, 100, 14);
+  font-size: larger;
 }
 .dashed {
-    margin: 0 auto;
-    border-bottom: 1px dashed rgb(167, 100, 14);
-    margin-bottom: 40px;
-    width: 50%;
+  margin: 0 auto;
+  border-bottom: 1px dashed rgb(167, 100, 14);
+  margin-bottom: 40px;
+  width: 50%;
 }
 
 .contact {
-    display: flex;
-    align-items: center;
-    height: 650px;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  height: 650px;
+  width: 100%;
 }
 .parrallax {
-    background-image: url(../assets/forrest.jpg);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../assets/forrest.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .contact-form {
-    background-color: rgb(35, 49, 78);
-    border-radius: 9px;
-    
+  background-color: rgb(35, 49, 78);
+  border-radius: 9px;
 }
 .btn-dark {
-    background-color: rgb(167, 100, 14);
-    border-radius: 0;
+  background-color: rgb(167, 100, 14);
+  border-radius: 0;
 }
 .btn-dark:hover {
-    background-color: rgb(182, 116, 31);
+  background-color: rgb(182, 116, 31);
 }
 .form-group {
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 80%;
-    padding-bottom: 40px;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 80%;
+  padding-bottom: 40px;
 }
 .about-p {
-    color:rgb(182, 116, 31);
-    text-align: center;
-    margin-bottom: 40px;
+  color: rgb(182, 116, 31);
+  text-align: center;
+  margin-bottom: 40px;
 }
 .about-dash {
-    margin-bottom: 100px;
-    border-bottom: 1px solid rgb(182, 116, 31);
+  margin-bottom: 100px;
+  border-bottom: 1px solid rgb(182, 116, 31);
 }
 .about-container {
-    width: 60%;
-    margin: 0 auto;
-    text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
 }
 .fab {
-    font-size: 60px;
-    color: rgb(182, 116, 31);
-    padding: 10px;
+  font-size: 60px;
+  color: rgb(182, 116, 31);
+  padding: 10px;
 }
 .list {
-    color: rgb(182, 116, 31);
-    padding: 20px;
+  color: rgb(182, 116, 31);
+  padding: 20px;
 }
 .list a {
-    color: rgb(182, 116, 31);
+  color: rgb(182, 116, 31);
 }
 .lead {
-    font-size: 25px;
+  font-size: 25px;
 }
 .btn-outline-dark {
-    border-color: rgb(182, 116, 31);
-    color: rgb(182, 116, 31);
+  border-color: rgb(182, 116, 31);
+  color: rgb(182, 116, 31);
 }
 .btn-outline-dark:hover {
-    background-color: rgb(182, 116, 31);
-    color: white;
+  background-color: rgb(182, 116, 31);
+  color: white;
 }
 .fa-github {
-    font-size: 20px;
+  font-size: 20px;
 }
 .fa-linkedin {
-    font-size: 20px;
+  font-size: 20px;
 }
 a.resume {
-    color:rgb(182, 116, 31);
-    font-size: 20px;
+  color: rgb(182, 116, 31);
+  font-size: 20px;
 }
 
-
-
 @media only screen and (max-width: 768px) {
-    .bg-dark {
-      background-color: rgb(35, 49, 78) !important;
-    }
-    .jumbotron {
-        margin-top: 30px;
-    }
-    .brand {
-        text-shadow: none;
-        border-bottom: 1px dashed rgb(167, 100, 14);
-    }
+  .bg-dark {
+    background-color: rgb(35, 49, 78) !important;
   }
-
-  @media only screen and (max-width: 576px) {
-    .jumbotron {
-        margin-top: 0;
-    }
-    .brand {
-        font-size: 120%;
-    }
-    .navbar-toggler {
-        margin-right: 30px;
-    }
+  .jumbotron {
+    margin-top: 30px;
   }
+  .brand {
+    text-shadow: none;
+    border-bottom: 1px dashed rgb(167, 100, 14);
+  }
+}
 
-
-
-
+@media only screen and (max-width: 576px) {
+  .jumbotron {
+    margin-top: 0;
+  }
+  .brand {
+    font-size: 120%;
+  }
+  .navbar-toggler {
+    margin-right: 30px;
+  }
+}

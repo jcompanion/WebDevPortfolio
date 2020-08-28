@@ -58,6 +58,7 @@ body {
   transform: scale(1.01);
   cursor: pointer;
 }
+
 .bg-dark {
   transition: 200ms ease-in;
   background-color: transparent !important;

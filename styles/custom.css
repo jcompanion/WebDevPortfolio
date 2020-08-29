@@ -32,9 +32,7 @@ body {
   color: rgb(255, 255, 255);
   border-bottom: 1px dashed rgb(167, 100, 14);
 }
-#nav {
-  max-width: 90%;
-}
+
 .jumbotron {
   background-image: url(../assets/mountains.jpg);
   background-size: cover;
@@ -209,7 +207,4 @@ a.resume {
   .navbar-toggler {
     margin-right: 30px;
   }
-  /* #nav {
-    max-width: 50%;
-  } */
 }

@@ -37,7 +37,7 @@ function generateProjects(project) {
           </button>
         </div>
         <div class="modal-body">
-          <img src="${project[i].Image}" class="card-img-top" alt="${project[i].Title} Project">
+          <img src="${project[i].Image.url}" class="card-img-top" alt="${project[i].Title} Project">
           ${project[i].LgSummary}
         </div>
         <div class="modal-footer">

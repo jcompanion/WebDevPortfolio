@@ -9,11 +9,12 @@ fetch('https://backend-portfolio1.herokuapp.com/projects')
 
 
 function generateProjects(project) {
+  console.log(project);
   for (let i = 0; i < project.length; i += 1) {
     projects.innerHTML += `
     <div data-aos="zoom-in" class="col mb-4">
     <div class="card h-100" data-toggle="modal" data-target="#${project[i].ModalName}Modal">
-      <img src="${project[i].Image}" class="card-img-top" alt="${project[i].Title}">
+      <img src="${project[i].Image.url}" class="card-img-top" alt="${project[i].Title}">
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">${project[i].Title}</h5>
         <p class="card-text">${project[i].Summary}</p>

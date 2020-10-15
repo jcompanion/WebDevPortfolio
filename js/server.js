@@ -1,5 +1,6 @@
 const projects = document.getElementById('projects-container');
 const modals = document.getElementById('modals');
+const loader = document.getElementById('loader');
 
 
 fetch('https://backend-portfolio1.herokuapp.com/projects')
@@ -10,6 +11,7 @@ fetch('https://backend-portfolio1.herokuapp.com/projects')
 
 function generateProjects(project) {
   console.log(project);
+
   for (let i = 0; i < project.length; i += 1) {
     projects.innerHTML += `
     <div data-aos="zoom-in" class="col mb-4">
@@ -52,4 +54,5 @@ function generateProjects(project) {
     `
 
   }
+  loader.style.display = "none";
 };
